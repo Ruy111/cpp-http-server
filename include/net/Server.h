@@ -9,7 +9,7 @@ private:
 public:
     explicit Server(int port);
 
-    void start();
+    int start();
 };
 
 #endif
